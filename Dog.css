@@ -1,0 +1,175 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+header, body {
+    margin-right: 10em;
+    margin-left: 10em;
+}
+nav, main, div {
+    background-color: #f8f9fa;
+}
+
+footer {
+    background-color: #9c2c2c;
+}
+
+h2 {
+    color: #9c2c65;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+nav {
+    display: block;
+    width: 100%;
+}
+
+li {
+    width: 20%;
+    margin: auto;
+    display: inline-block;
+    text-align: right;
+}
+
+ul {
+    width: 50%;
+    display: inline-block;
+}
+
+nav:first-child {
+    color: #9c2c65;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+img {
+   float: right;
+   padding-right: 1em;
+}
+
+main p {
+    color: #999999;
+    width: 60%;
+}
+
+.btn {
+    padding: 1em;
+    margin: 1em;
+    background-color: #9c2c2c;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 1em;
+}
+
+main {
+    margin-bottom: 2em;
+}
+
+section {
+    text-align: center;
+    margin-top: 2em;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+section p {
+    color: #999999;
+}
+
+#container, .contact {
+    display: inline-block;
+}
+
+#container {
+    color: #9e8080;
+}
+
+.fas {
+    float : right;
+}
+
+#email {
+    width: 90%;
+    padding: .2em;
+    border-radius: 10px #999999;
+}
+
+#container {
+    width: 50%;
+    margin: auto;
+    padding: 1em;
+    font-size: .5em;
+}
+
+#comments {
+    width: 90%;
+    border-radius: 10px #999999;
+}
+
+#first_name, #last_name {
+    width: 30%;
+    display: inline-block;
+    padding: .5em;
+    border-radius: 10px #999999;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1em;
+    display: inline-block;
+    margin: .5em;
+    padding: .5em;
+    text-align: left;
+}
+
+#submit {
+    margin: auto;
+    font-size: 2em;
+    margin-top: 1em;
+    border-radius: 10px;
+    text-align: left;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: #343a40;
+    color: white;
+}
+
+#subject{
+    margin: auto;
+    width: 90%;
+    padding: .5em;
+    border-radius: 10px #999999;
+}
+
+footer {
+    width: 100%;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+.contact p {
+    color: #999999
+}
+
+
+@media screen and (max-width: 1024px) {
+    ul {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1023px) {
+    .fas {
+        display: none;
+        }
+}
